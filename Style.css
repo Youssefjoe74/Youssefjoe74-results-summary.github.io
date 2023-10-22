@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    position: absolute;
+    left: 31%;
+    top: 25%;
+    width: 200px;
+}
+
+.results{
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 20px 20px 20px 5px rgba(202, 202, 184, 0.438);
+}
+
+.results h4{
+    color: hsla(0, 0%, 100%, 0.623);
+    margin-bottom: 30px;
+}
+.results p{
+    color: hsla(0, 0%, 100%, 0.623);
+}
+.results h3{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 25px;
+}
+.results .degree{
+    height: 120px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 34px;
+    margin-bottom: 20px;
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+.results .degree p{
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.results .degree span{
+    font-size: 50px;
+    color: white;
+}
+
+.details{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 130%;
+    bottom: 0.2%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 5px rgba(202, 202, 184, 0.438);
+}
+
+.details h4{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.details .rec{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: hsla(0, 47%, 87%, 0.3);
+}
+
+.details .rec h6{
+    position: absolute;
+    left: 25%;
+    bottom: 74%;
+    font-size: 13px;
+    color: hsla(0, 100%, 67%);
+}
+
+.details .rec p{
+    position: absolute;
+    left: 65%;
+    bottom: 73.8%;
+    font-size: 15px;
+}
+
+.details .rec span{
+    color: gray;
+    font-size: 13px;
+}
+
+.details .mem{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.details .mem h6{
+    position: absolute;
+    left: 25%;
+    bottom: 60.6%;
+    font-size: 13px;
+    color: hsl(39, 100%, 56%);
+}
+
+.details .mem p{
+    position: absolute;
+    left: 65%;
+    bottom: 60.3%;
+    font-size: 15px;
+}
+
+.details .mem span{
+    color: gray;
+    font-size: 13px;
+}
+
+.details .ver{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.details .ver h6{
+    position: absolute;
+    left: 25%;
+    bottom: 47.7%;
+    font-size: 13px;
+    color: hsl(166, 100%, 37%);
+}
+
+.details .ver p{
+    position: absolute;
+    left: 65%;
+    bottom: 47.5%;
+    font-size: 15px;
+}
+
+.details .ver span{
+    color: gray;
+    font-size: 13px;
+}
+
+.details .vis{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.details .vis h6{
+    position: absolute;
+    left: 25%;
+    bottom: 35%;
+    font-size: 13px;
+    color: hsl(234, 85%, 45%);
+}
+
+.details .vis p{
+    position: absolute;
+    left: 65%;
+    bottom: 34.6%;
+    font-size: 15px;
+}
+
+.details .vis span{
+    color: gray;
+    font-size: 13px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(40, 48, 63);
+    border: 1px solid rgb(40, 48, 63);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(252, 100%, 67%);
+    border: 1px solid hsl(252, 100%, 67%);
+}
+
+footer{
+    position: absolute;
+    top: 96%;
+    left: 36%;
+    background-color: rgb(192, 223, 224);
+}
